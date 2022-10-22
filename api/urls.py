@@ -1,7 +1,7 @@
 from django.urls import path
-from rest_framework_simplejwt.views import TokenObtainPairView
 
 from api.views.group import add, remove
+from api.views.login import TokenObtainPairView
 from api.views.user import me
 
 urlpatterns = [
